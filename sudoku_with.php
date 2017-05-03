@@ -30,7 +30,7 @@
 $old_host =  $_SERVER['HTTP_REFERER'];
 if($old_host != 'http://www.rain1024.com/more/sudoku_web.php'){
     $url = 'http://www.rain1024.com/more/sudoku_web.php';
-    header("Locatio:$url");
+    header("Location:$url");
     exit();
 }
 //$host = $_SERVER['HTTP_HOST'];
